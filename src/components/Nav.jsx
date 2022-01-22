@@ -86,9 +86,10 @@ const Nav = () => {
             </div>
 
             <ul className='hidden lg:flex align-middle justify-self-end'>
-                <NavItem name='Products' link_path='/' />
-                <NavItem name='Help' link_path='/' />
-                <NavItem name='Prices' link_path='/' />
+                <NavItem name='English (US)' link_path='/' />
+                <NavItem name='Sign in' link_path='/' />
+                <NavItem name='Blockchain.com Wallet' link_path='/' />
+                <NavItem name='Status' link_path='/' />
             </ul>
         </nav>
     )
