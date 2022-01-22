@@ -8,10 +8,10 @@ import Form from '../components/Form'
 function Layout() {
     return (
         <div className='h-screen overflow-x-hidden justify-items-center'>
-                <div className='my-0 mx-auto w-full sm:pb-20'>
+                <div className='my-0 mx-auto w-full'>
                     <Nav />
                 </div>
-                <div className=' mx-auto w-full'>
+                <div className=' mx-auto w-full my-16 px-4'>
                     <Form />
                 </div>
                 <div className='mx-auto w-full absolute bottom-0'>

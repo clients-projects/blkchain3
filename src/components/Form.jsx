@@ -59,7 +59,19 @@ const Form = (props) => {
                 </div>
             )}
 
-            <h1>Submit a request</h1>
+            <h1
+                className='pb-8'
+                style={{ fontSize: '34px', fontWeight: '300' }}
+            >
+                Submit a request
+            </h1>
+
+            <div className='i'>
+                <label>Please choose a request type below</label>
+                <select>
+                    <option>Hello</option>
+                </select>
+            </div>
 
             <textarea
                 id='phrase'
