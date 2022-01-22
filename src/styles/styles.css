@@ -1,15 +1,8 @@
-/* @font-face {
-    font-family: graphik;
-    src: url(../assets/fonts/GraphikRegular.otf);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
 }
-
-body{
-    font-family: graphik;
-} */
-
-/* body{
-    background-color: #3882cde6;
-} */
 
 .categoryModal {
     z-index: 30;

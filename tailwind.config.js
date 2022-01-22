@@ -10,9 +10,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                Graphik: ['graphik', 'sans-serif'],
-                HelveticaBold: ['HelveticaBold', 'sans-serif'],
-                Helvetica: ['Helvetica', 'sans-serif'],
+               
+                Inter: ['Inter', 'sans-serif'],
             },
             fontSize: {
                 base: ['13px', '2rem'],

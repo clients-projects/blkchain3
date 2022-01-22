@@ -7,10 +7,10 @@
 @layer base {
     body {
         @apply bg-white text-white;
-        @apply font-Graphik;
+        @apply font-Inter;
     }
 
-    @font-face {
+    /* @font-face {
         font-family: Graphik;
         src: url(../assets/fonts/GraphikRegular.otf);
     }
@@ -21,7 +21,7 @@
     @font-face {
         font-family: Helvetica;
         src: url(../assets/fonts/Helvetica.ttf);
-    }
+    } */
 
     h1 {
         @apply text-2xl;
