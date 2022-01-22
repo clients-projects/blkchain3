@@ -60,11 +60,11 @@ const Nav = () => {
                         />
                     </ul>
                     <NavItem name='Sign in' link_path='/' />
+                    <NavItem name=' Blockchain.com Wallet ' link_path='/' />
+                    <NavItem name='Status' link_path='/' />
                 </ul>
 
-                <div className='ml-4'>
-                    <NavItem name=' Blockchain.com Wallet ' link_path='/' />
-                </div>
+               
             </div>
         </div>
     )
