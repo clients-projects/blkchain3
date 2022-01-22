@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
     return (
-        <div className='text-sm text-center bg-[#153A62] flex justify-between items-center py-4 px-6'>
+        <div className='text-sm text-center bg-[#153A62] lg:flex justify-between items-center py-4 px-6'>
             <div className='items-center grid gap-y-4 '>
                 <img
                     src={Logo}
@@ -26,7 +26,7 @@ export default function Footer() {
                 </div>
             </div>
             <div>
-                <p style={{fontSize: '12px'}}>
+                <p style={{fontSize: '12px'}} className='place-self-end'>
                     ©2021 Blockchain Access (Ireland) Limited. Privacy Policy
                      |  Terms of Service
                 </p>
