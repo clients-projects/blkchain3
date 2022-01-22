@@ -1,7 +1,7 @@
 import React from 'react'
 import { BiMenu } from 'react-icons/bi'
 
-import Logo from '../assets/logo.svg'
+import Logo from '../assets/logo.png'
 import useToggle from './toggle'
 import NavItem from './NavItem'
 
