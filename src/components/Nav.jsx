@@ -37,7 +37,7 @@ const Nav = () => {
         >
             <div className='categoryModal'>
                 <ul className='ml-4'>
-                    <NavItem name='Products' link_path='/' />
+                    <NavItem name='English (US)' link_path='/' />
                     <ul className='border-l border-[#ffffff26] ml-7 '>
                         <NavItem name='Buy/Sell Cryptocurrency' link_path='/' />
                         <NavItem
@@ -59,17 +59,13 @@ const Nav = () => {
                             link_path='/'
                         />
                     </ul>
-                    <NavItem name='Help' link_path='/' />
+                    <NavItem name='Sign in' link_path='/' />
                 </ul>
 
-               
-
                 <div className='ml-4'>
-            <NavItem name='Prices' link_path='/' />
+                    <NavItem name=' Blockchain.com Wallet ' link_path='/' />
                 </div>
             </div>
-
-
         </div>
     )
     return (
