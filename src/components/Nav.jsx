@@ -11,10 +11,7 @@ const Nav = () => {
     let categoryModalStyle = {
         width: isOn ? '100%' : '0',
         visibility: isOn ? 'visible' : 'hidden',
-        // transform: isOn
-        //     ? 'translateY(0%) translateZ(0px)'
-        //     : 'translateY(600px)',
-        // transition: 'all .3s',
+    
     }
 
     let hamburgerStyle = (
@@ -31,20 +28,15 @@ const Nav = () => {
     )
 
     const categoryModal = (
-        <div
-            className=' w-full  bg-[#3882cde6]'
-            style={categoryModalStyle}
-        >
-            <div className='categoryModal'>
+        <div className=' w-full  bg-[#153A62]' style={categoryModalStyle}>
+            <div className=''>
                 <ul className='ml-4'>
                     <NavItem name='English (US)' link_path='/' />
-                   
+
                     <NavItem name='Sign in' link_path='/' />
                     <NavItem name=' Blockchain.com Wallet ' link_path='/' />
                     <NavItem name='Status' link_path='/' />
                 </ul>
-
-               
             </div>
         </div>
     )
