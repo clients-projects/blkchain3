@@ -19,8 +19,9 @@ const Nav = () => {
 
     let hamburgerStyle = (
         <div
-            className='flex z-30 relative bg-[#3A7AA5]'
-            style={{ padding: '1px 5px'}}
+            className='flex z-30 relative bg-[#3A7AA5]' style={{
+                padding: '6px 10px'
+            }}
         >
             <BiMenu
                 className='text-white self-center text-2xl relative cursor-pointer'
