@@ -20,7 +20,7 @@ export default function Footer() {
                 />
                 <div>
                     <FaTwitterSquare />
-                    <FacebookSquare /> <FaLinkedin />
+                    <FaFacebookSquare /> <FaLinkedin />
                     <FaGithubSquare />
                 </div>
             </div>
