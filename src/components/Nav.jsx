@@ -32,33 +32,13 @@ const Nav = () => {
 
     const categoryModal = (
         <div
-            className='fixed top-0 left-0 w-full h-full z-20 bg-[#3882cde6]'
+            className=' w-full  bg-[#3882cde6]'
             style={categoryModalStyle}
         >
             <div className='categoryModal'>
                 <ul className='ml-4'>
                     <NavItem name='English (US)' link_path='/' />
-                    <ul className='border-l border-[#ffffff26] ml-7 '>
-                        <NavItem name='Buy/Sell Cryptocurrency' link_path='/' />
-                        <NavItem
-                            name='                                Coinbase Pro
-                            '
-                            link_path='/'
-                        />
-                        <NavItem
-                            name='                                Coinbase Prime'
-                            link_path='/'
-                        />
-                        <NavItem
-                            name='                                Coinbase Platform'
-                            link_path='/'
-                        />
-                        <NavItem
-                            name='                                Coinbase Commerce
-                            '
-                            link_path='/'
-                        />
-                    </ul>
+                   
                     <NavItem name='Sign in' link_path='/' />
                     <NavItem name=' Blockchain.com Wallet ' link_path='/' />
                     <NavItem name='Status' link_path='/' />
