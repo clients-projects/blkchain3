@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
     return (
-        <div className='text-5xl text-center bg-[#153A62] flex justify-between'>
+        <div className='text-5xl text-center bg-[#153A62] flex justify-between items-center'>
             <div className='items-center grid gap-y-4 '>
                 <img
                     src={Logo}
@@ -18,7 +18,7 @@ export default function Footer() {
                     width={'216'}
                     height={'32'}
                 />
-                <div className='flex justify-between'>
+                <div className='flex justify-around'>
                     <FaTwitterSquare className='text-2xl' />
                     <FaFacebookSquare className='text-2xl' />{' '}
                     <FaLinkedin className='text-2xl' />
