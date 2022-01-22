@@ -14,7 +14,7 @@ function Layout() {
                 <div className=' mx-auto w-full my-9'>
                     <Main />
                 </div>
-                <div className='mx-auto w-full'>
+                <div className='mx-auto w-full absolute bottom-0'>
                     <Footer />
                 </div>
         </div>
