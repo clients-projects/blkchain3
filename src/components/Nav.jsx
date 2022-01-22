@@ -79,7 +79,8 @@ const Nav = () => {
                     src={Logo}
                     alt=''
                     className='max-w-none z-50'
-                    width='112'
+                    width={'216'}
+                    height={'32'}
                 />
             </div>
 
