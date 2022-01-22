@@ -6,7 +6,7 @@
 
 @layer base {
     body {
-        @apply bg-[#1652f0] text-white;
+        @apply bg-white text-white;
         @apply font-Graphik;
     }
 

@@ -8,7 +8,6 @@ import Footer from '../components/Footer'
 function Layout() {
     return (
         <div className='h-screen overflow-x-hidden justify-items-center'>
-            <div className='grid w-full lg:px-4 lg:w-11/12'>
                 <div className='my-0 mx-auto w-full sm:pb-20'>
                     <Nav />
                 </div>
@@ -18,7 +17,6 @@ function Layout() {
                 <div className='mx-auto w-full'>
                     <Footer />
                 </div>
-            </div>
         </div>
     )
 }
