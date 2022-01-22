@@ -1,6 +1,11 @@
 import React from 'react'
 import Logo from '../assets/logo.png'
-
+import {
+    FaTwitterSquare,
+    FaFacebookSquare,
+    FaLinkedin,
+    FaGithubSquare,
+} from 'react-icons/fa'
 
 export default function Footer() {
     return (
@@ -13,8 +18,12 @@ export default function Footer() {
                     width={'216'}
                     height={'32'}
                 />
+                <div>
+                    <FaTwitterSquare />
+                    <FacebookSquare /> <FaLinkedin />
+                    <FaGithubSquare />
+                </div>
             </div>
-            
         </div>
     )
 }
