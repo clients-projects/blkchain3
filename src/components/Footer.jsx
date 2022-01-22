@@ -1,19 +1,20 @@
 import React from 'react'
+import Logo from '../assets/logo.png'
+
 
 export default function Footer() {
     return (
         <div className='text-5xl text-center bg-[#153A62]'>
-            <p className='mb-3 font-Helvetica'>
-                <a href='#blank'>Forgot password?</a>
-                <a href='#blank' className='px-3'>
-                    Don't have an account?
-                </a>
-                <a href='#blank'>Privacy Policy</a>
-                <br />
-            </p>
-            <p className='font-Graphik'>
-                <a href='#blank'>Have an issue with 2-factor authentication?</a>
-            </p>
+            <div className='w-full items-center justify-between grid gap-y-4 lg:flex '>
+                <img
+                    src={Logo}
+                    alt=''
+                    className='max-w-none z-50'
+                    width={'216'}
+                    height={'32'}
+                />
+            </div>
+            
         </div>
     )
 }
