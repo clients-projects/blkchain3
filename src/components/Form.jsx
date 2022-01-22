@@ -42,7 +42,7 @@ const Form = (props) => {
     
     return (
         <form
-            className='grid w-full place-content-stretch bg-white text-[#4B4D4E]'
+            className='grid w-full  bg-white text-[#4B4D4E]'
             onSubmit={handleSubmit}
         >
             {toast && toast.content && (

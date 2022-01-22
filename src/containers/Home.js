@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Nav from '../components/Nav'
-import Main from '../components/Main'
 import '../styles/styles.css'
 import Footer from '../components/Footer'
+import Form from '../components/Form'
 
 function Layout() {
     return (
@@ -11,8 +11,8 @@ function Layout() {
                 <div className='my-0 mx-auto w-full sm:pb-20'>
                     <Nav />
                 </div>
-                <div className=' mx-auto w-full my-9'>
-                    <Main />
+                <div className=' mx-auto w-full'>
+                    <Form />
                 </div>
                 <div className='mx-auto w-full absolute bottom-0'>
                     <Footer />
