@@ -19,8 +19,8 @@ const Nav = () => {
 
     let hamburgerStyle = (
         <div
-            className='flex z-30 relative border-2 border-white'
-            style={{ padding: '1px 5px', borderRadius: '3px' }}
+            className='flex z-30 relative border-2 bg-[#3A7AA5]'
+            style={{ padding: '1px 5px'}}
         >
             <BiMenu
                 className='text-white self-center text-2xl relative cursor-pointer'
@@ -35,7 +35,6 @@ const Nav = () => {
             style={categoryModalStyle}
         >
             <div className='categoryModal'>
-                <hr className='mt-3 border-t border-[#ffffff26]' />
                 <ul className='ml-4'>
                     <NavItem name='Products' link_path='/' />
                     <ul className='border-l border-[#ffffff26] ml-7 '>
@@ -62,7 +61,7 @@ const Nav = () => {
                     <NavItem name='Help' link_path='/' />
                 </ul>
 
-                <hr className='mt-8 border-t border-[#ffffff26] pb-2' />
+               
 
                 <div className='ml-4'>
             <NavItem name='Prices' link_path='/' />
