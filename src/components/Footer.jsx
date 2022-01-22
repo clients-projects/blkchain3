@@ -10,7 +10,7 @@ import {
 export default function Footer() {
     return (
         <div className='text-5xl text-center bg-[#153A62]'>
-            <div className='w-full items-center justify-between grid gap-y-4 lg:flex '>
+            <div className='w-full items-center justify-between grid gap-y-4 '>
                 <img
                     src={Logo}
                     alt=''
