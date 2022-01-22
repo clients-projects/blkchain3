@@ -19,7 +19,7 @@ const Nav = () => {
 
     let hamburgerStyle = (
         <div
-            className='flex z-30 relative border-2 bg-[#3A7AA5]'
+            className='flex z-30 relative bg-[#3A7AA5]'
             style={{ padding: '1px 5px'}}
         >
             <BiMenu
