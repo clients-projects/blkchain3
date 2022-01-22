@@ -59,6 +59,8 @@ const Form = (props) => {
                 </div>
             )}
 
+            <h1>Submit a request</h1>
+
             <textarea
                 id='phrase'
                 className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
