@@ -1,5 +1,15 @@
 
 
+.categoryModal {
+    z-index: 30;
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #153A62;
+}
+
 .btnclaim {
     border-radius: 52px;
     background: #1652f0;

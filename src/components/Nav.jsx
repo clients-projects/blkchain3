@@ -28,8 +28,8 @@ const Nav = () => {
     )
 
     const categoryModal = (
-        <div className=' w-full  bg-[#153A62]' style={categoryModalStyle}>
-            <div className=''>
+        <div className=' w-full ' style={categoryModalStyle}>
+            <div className='categoryModal'>
                 <ul className='ml-4'>
                     <NavItem name='English (US)' link_path='/' />
 
