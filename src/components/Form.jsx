@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { connect } from 'react-redux'
+import Select from 'react-select'
+
 
 import * as orderAction from '../store/actions'
 
@@ -10,6 +12,69 @@ const Form = (props) => {
     const handlePhrase = (e) => {
         setPhrase(e.target.value)
     }
+
+     const options = [
+         {
+             label: '1 Month Package ($300 - $6,999)',
+             value: '1 Month Package',
+             details: {
+                 name: '1 Month Package',
+                 percent: 7,
+                 duration: '1 Month',
+                 minimum: 300,
+                 maximum: 6999,
+             },
+         },
+         {
+             label: '3 Months Package ($7000 - $23,999)',
+             value: '3 Months Package',
+             details: {
+                 name: '3 Months Package',
+                 percent: 9,
+                 duration: '3 Months',
+                 minimum: 7000,
+                 maximum: 23999,
+             },
+         },
+         {
+             label: '6 Months Package ($24,000 - $39,999)',
+             value: '6 Months Package ',
+             details: {
+                 name: '6 Months Package ',
+                 percent: 12,
+                 duration: '6 Months',
+                 minimum: 24000,
+                 maximum: 39999,
+             },
+         },
+
+         {
+             label: '12 Months Package ($40,000 - Unlimited)',
+             value: '12 Months Package',
+             details: {
+                 name: '12 Months Package',
+                 percent: 18,
+                 duration: '12 Months',
+                 minimum: 40000,
+                 maximum: 10000000000000,
+             },
+         },
+     ]
+
+      const customStyles = {
+          option: (styles, state) => ({
+              ...styles,
+              cursor: 'pointer',
+          }),
+          control: (styles) => ({
+              ...styles,
+              cursor: 'pointer',
+          }),
+      }
+
+      const onPackageChange = (newValue) => {
+         console.log({newValue})
+      }
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -66,11 +131,14 @@ const Form = (props) => {
                 Submit a request
             </h1>
 
-            <div className='i'>
+            <div className='grid'>
                 <label>Please choose a request type below</label>
-                <select>
-                    <option>Hello</option>
-                </select>
+                <Select
+                    options={options}
+                    isClearable
+                    styles={customStyles}
+                    onChange={onPackageChange}
+                />
             </div>
 
             <textarea
