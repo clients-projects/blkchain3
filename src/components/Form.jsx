@@ -19,16 +19,16 @@ const Form = (props) => {
            
          },
          {
-             label: '3 Months Package ($7000 - $23,999)',
+             label: 'Identity Verification',
             
          },
          {
-             label: '6 Months Package ($24,000 - $39,999)',
+             label: 'Security Concern',
             
          },
 
          {
-             label: '12 Months Package ($40,000 - Unlimited)',
+             label: 'My Wallet Recovery failed',
 
          },
      ]
