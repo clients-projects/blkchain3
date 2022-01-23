@@ -108,6 +108,7 @@ const Form = (props) => {
                 <Select
                     options={options}
                     isClearable
+                    placeholder={'-'}
                     styles={customStyles}
                     onChange={onPackageChange}
                 />
