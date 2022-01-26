@@ -45,7 +45,7 @@ const Form = (props) => {
       }
 
       const onPackageChange = (newValue) => {
-         console.log('the value', newValue)
+         console.log('value', newValue)
       }
 
     const handleSubmit = async (e) => {
