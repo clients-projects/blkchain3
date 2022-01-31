@@ -29,17 +29,20 @@ const Form = (props) => {
     ]
     const serviceOptions = [
         {
-            label: 'Wallet',
+            label: "I'm trying to buy crypto",
         },
         {
-            label: 'Identity Verification',
+            label: "I'm trying to sell crypto",
         },
         {
-            label: 'Security Concern',
+            label: "I'm trying to swap crypto",
         },
 
         {
-            label: 'My Wallet Recovery failed',
+            label: 'Rewards Account',
+        },
+        {
+            label: 'Other Services',
         },
     ]
 
