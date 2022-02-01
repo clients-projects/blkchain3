@@ -45,6 +45,87 @@ const Form = (props) => {
             label: 'Other services',
         },
     ]
+    const currencyOptions = [
+        {
+            label: "ALGO",
+        },
+        {
+            label: "BCH",
+        },
+        {
+            label: "BTC",
+        },
+
+        {
+            label: 'DLGD',
+        },
+        {
+            label: 'DOGE',
+        },
+        {
+            label: 'ETH',
+        },
+        {
+            label: 'EUR',
+        },
+        {
+            label: 'GBP',
+        },
+        {
+            label: 'LTC',
+        },
+        {
+            label: 'Not Applicable',
+        },
+        {
+            label: 'RUB',
+        },
+        {
+            label: 'STX',
+        },
+        {
+            label: 'TRY',
+        },
+        {
+            label: 'USD',
+        },
+        {
+            label: 'USD-D',
+        },
+        {
+            label: 'USDT-Tether',
+        },
+        {
+            label: 'XLM-Steller',
+        },
+        {
+            label: 'XRP',
+        },
+        {
+            label: 'CLOUT',
+        },
+        {
+            label: 'AAVE',
+        },
+        {
+            label: 'LINK',
+        },
+        {
+            label: 'COMP',
+        },
+        {
+            label: 'DAI',
+        },
+        {
+            label: 'UNI',
+        },
+        {
+            label: 'USDC',
+        },
+        {
+            label: 'WGLD',
+        },
+    ]
 
     const customStyles = {
         option: (styles, state) => ({
@@ -120,7 +201,7 @@ const Form = (props) => {
                         options={options}
                         styles={customStyles}
                         onChange={onPackageChange}
-                        placeholder={"Wallet"}
+                        placeholder={'Wallet'}
                     />
                 </div>
                 {/* <div>
@@ -181,12 +262,11 @@ const Form = (props) => {
                         Which currency type is related to your concern?
                     </label>
                     <Select
-                        options={options}
-                        isClearable
-                        placeholder={'-'}
+                        options={currencyOptions}
                         styles={customStyles}
                         onChange={onPackageChange}
-                    />{' '}
+                        placeholder={'-'}
+                    />
                 </div>
                 <div className='grid'>
                     <label>Attachments</label>
