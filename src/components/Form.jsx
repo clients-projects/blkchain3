@@ -149,11 +149,10 @@ const Form = (props) => {
             boxShadow: state.isFocused ? null : null,
         }),
 
-        valueContainer: (provided, state) => ({
-            ...provided,
-            height: '3px',
-            padding: '0 6px',
-        }),
+        valueContainer: (provided, state) => {
+            console.log({provided})
+            return {}
+        },
 
         input: (provided, state) => ({
             ...provided,
@@ -228,7 +227,7 @@ const Form = (props) => {
                 <div>
                     <label>Please choose a request type below</label>
                     <Select
-                        className="currency"
+                        className='currency'
                         width='10px'
                         options={options}
                         styles={customStyles}
