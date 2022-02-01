@@ -120,7 +120,7 @@ const Form = (props) => {
                         options={options}
                         styles={customStyles}
                         onChange={onPackageChange}
-                        defaultValue='Wallet'
+                        placeholder={"Wallet"}
                     />
                 </div>
                 {/* <div>
