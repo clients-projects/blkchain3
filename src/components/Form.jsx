@@ -141,6 +141,8 @@ const Form = (props) => {
             console.log({state})
             return {
                 ...styles,
+                ...state,
+                className: 'currency'
             }
         },
     }
