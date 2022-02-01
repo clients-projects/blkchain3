@@ -149,7 +149,7 @@ const Form = (props) => {
             boxShadow: state.isFocused ? null : null,
         }),
 
-        container: (style, state) => {
+        menu: (style, state) => {
            console.log({style})
             return {
 
