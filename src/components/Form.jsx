@@ -259,7 +259,7 @@ const Form = (props) => {
                 <div className='grid gap-3 pb-3'>
                     <label className='font-medium'>How can we help you?</label>
                     <textarea
-                        className='text-black border-2 outline-none text-lg p-1  justify-self-stretch '
+                        className='text-black border outline-none text-lg p-1  justify-self-stretch '
                         rows={3}
                     ></textarea>{' '}
                     <span className='text-[#8a8d8f] text-sm'>
