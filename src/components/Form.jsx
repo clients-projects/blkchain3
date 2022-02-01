@@ -213,7 +213,9 @@ const Form = (props) => {
 
             <div className='grid gap-4'>
                 <div className='grid gap-3 pb-3'>
-                    <label className='font-medium'>Please choose a request type below</label>
+                    <label className='font-medium'>
+                        Please choose a request type below
+                    </label>
                     <Select
                         options={options}
                         styles={customStyles}
@@ -239,7 +241,9 @@ const Form = (props) => {
                     ></textarea>{' '}
                 </div>
                 <div className='grid gap-3 pb-3'>
-                    <label className='font-medium'>What service is your query about?</label>
+                    <label className='font-medium'>
+                        What service is your query about?
+                    </label>
                     <Select
                         options={serviceOptions}
                         isClearable
@@ -258,10 +262,14 @@ const Form = (props) => {
                         className='text-black border-2 outline-none text-lg p-1  justify-self-stretch '
                         rows={3}
                     ></textarea>{' '}
-                    <span>Enter the details of your request</span>
+                    <span className='text-[#8a8d8f] text-sm'>
+                        Enter the details of your request
+                    </span>
                 </div>
                 <div className='grid gap-3 pb-3'>
-                    <label className='font-medium'>Order ID/Transaction ID</label>
+                    <label className='font-medium'>
+                        Order ID/Transaction ID
+                    </label>
                     <input className='border py-1' />
                 </div>
                 {/* <div className='grid'>
@@ -288,10 +296,10 @@ const Form = (props) => {
 
             <div className='flex justify-between items-center pt-10 font-medium'>
                 <button
-                    className='text-white bg-[#1652f0] rounded-sm'
+                    className='text-white bg-[#3CC476] rounded-sm'
                     style={{ padding: '11px 22px', fontSize: '11px' }}
                 >
-                    SIGN IN
+                    Submit
                 </button>
             </div>
         </form>
