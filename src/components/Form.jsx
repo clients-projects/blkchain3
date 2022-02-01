@@ -212,7 +212,7 @@ const Form = (props) => {
             </h1>
 
             <div className='grid gap-4'>
-                <div className='grid gap-3 mb-2'>
+                <div className='grid gap-3 pb-3'>
                     <label className='font-medium'>Please choose a request type below</label>
                     <Select
                         options={options}
