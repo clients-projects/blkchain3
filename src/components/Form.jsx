@@ -127,43 +127,22 @@ const Form = (props) => {
         },
     ]
 
-    // const customStyles = {
-    //     option: (styles, state) => ({
-    //         ...styles,
-    //         cursor: 'pointer',
-    //     }),
-    //     control: (styles) => ({
-    //         ...styles,
-    //         cursor: 'pointer',
-    //     }),
-
-    // }
-
     const customStyles = {
         control: (provided, state) => ({
             ...provided,
             background: '#fff',
             borderColor: '#9e9e9e',
             minHeight: '30px',
+            cursor: 'pointer',
             height: '30px',
             boxShadow: state.isFocused ? null : null,
         }),
 
-        menu: (style, state) => {
-           console.log({style})
-            return {
-
-            }
-        },
-        valueContainer: (provided, state) => {
-            console.log({provided})
-            return {}
-        },
-
-        input: (provided, state) => ({
-            ...provided,
-            margin: '0px',
+        option: (styles, state) => ({
+            ...styles,
+            cursor: 'pointer',
         }),
+
         indicatorSeparator: (state) => ({
             display: 'none',
         }),
