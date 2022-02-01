@@ -47,13 +47,13 @@ const Form = (props) => {
     ]
     const currencyOptions = [
         {
-            label: "ALGO",
+            label: 'ALGO',
         },
         {
-            label: "BCH",
+            label: 'BCH',
         },
         {
-            label: "BTC",
+            label: 'BTC',
         },
 
         {
@@ -136,13 +136,12 @@ const Form = (props) => {
             ...styles,
             cursor: 'pointer',
         }),
- 
-        container: (styles, state) => {
 
-            return (
-                ...styles
-            )
-        }
+        container: (styles, state) => {
+            return {
+                ...styles,
+            }
+        },
     }
 
     const onPackageChange = (newValue) => {
