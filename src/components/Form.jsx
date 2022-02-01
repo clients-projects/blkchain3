@@ -136,6 +136,14 @@ const Form = (props) => {
             ...styles,
             cursor: 'pointer',
         }),
+        container:(styles, state) => {
+            console.log({styles})
+            return (
+                {
+                    height: '2px'
+                }
+            )
+        }
     }
 
     const onPackageChange = (newValue) => {
