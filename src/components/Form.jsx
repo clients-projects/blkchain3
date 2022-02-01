@@ -228,6 +228,7 @@ const Form = (props) => {
                 <div>
                     <label>Please choose a request type below</label>
                     <Select
+                    className='currency'
                         options={options}
                         styles={customStyles}
                         onChange={onPackageChange}
