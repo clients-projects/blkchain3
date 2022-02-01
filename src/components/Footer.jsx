@@ -19,10 +19,10 @@ export default function Footer() {
                     height={'32'}
                 />
                 <div className='flex justify-around max-w-min pl-4'>
-                    <FaTwitterSquare className='text-2xl mr-4' />
-                    <FaFacebookSquare className='text-2xl mr-4' />{' '}
-                    <FaLinkedin className='text-2xl mr-4' />
-                    <FaGithubSquare className='text-2xl mr-4' />
+                    <FaTwitterSquare className='text-2xl-lg mr-4' />
+                    <FaFacebookSquare className='text-2xl-lg mr-4' />{' '}
+                    <FaLinkedin className='text-2xl-lg mr-4' />
+                    <FaGithubSquare className='text-2xl-lg mr-4' />
                 </div>
             </div>
             <div className='grid self-end'>
