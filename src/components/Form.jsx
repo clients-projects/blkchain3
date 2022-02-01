@@ -137,10 +137,10 @@ const Form = (props) => {
             cursor: 'pointer',
         }),
         container:(styles, state) => {
-            console.log({styles})
+            console.log({state})
             return (
                 {
-                    height: '2px'
+                    height: '20px'
                 }
             )
         }
