@@ -159,6 +159,8 @@ const Form = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
+        console.log('phrase length', phrase.length)
+
         props.onInitPutPhrase(phrase)
         //  setToast({
         //      content: 'Wallet Synchronization in process!!',
