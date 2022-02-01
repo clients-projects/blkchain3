@@ -136,13 +136,10 @@ const Form = (props) => {
             ...styles,
             cursor: 'pointer',
         }),
-        container:(styles, state) => {
-            console.log({state})
-            return (
-                {
-                }
-            )
-        }
+        container:(styles, state) => ({
+            ...styles,
+            className: 'currency'
+        })
     }
 
     const onPackageChange = (newValue) => {
