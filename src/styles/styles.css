@@ -35,7 +35,8 @@
 } */
 
 .customFile{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
 }
 .customFile::-webkit-file-upload-button {
@@ -45,8 +46,8 @@
 .customFile::before {
   content: 'Add file';
   
-  display: flex;
-
+  display: grid;
+    justify-self: center;
   background: linear-gradient(top, #f9f9f9, #e3e3e3);
   border: 1px solid #999;
   border-radius: 3px;
