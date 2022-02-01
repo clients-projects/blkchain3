@@ -25,7 +25,7 @@ export default function Footer() {
                     <FaGithubSquare className='text-2xl-lg mr-4' />
                 </div>
             </div>
-            <div className='grid self-end px-1 ml-1 md:ml-0 md:px-0'>
+            <div className='grid self-end mt-4 px-1 ml-1 md:ml-0 md:px-0'>
                 <p style={{fontSize: '12px', textAlign: 'left'}} className='place-self-end'>
                     ©2021 Blockchain Access (Ireland) Limited. Privacy Policy
                      |  Terms of Service
