@@ -27,7 +27,6 @@
 }
 
 .currencyOption{
-    position: absolute !important;
     max-height: 2px !important;
     color: yellow !important;
     background-color: #153A62 !important;

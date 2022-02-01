@@ -141,6 +141,7 @@ const Form = (props) => {
         option: (styles, state) => ({
             ...styles,
             cursor: 'pointer',
+            background: 'blue'
         }),
 
         indicatorSeparator: (state) => ({
