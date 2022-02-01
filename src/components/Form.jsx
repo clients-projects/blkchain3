@@ -212,8 +212,8 @@ const Form = (props) => {
             </h1>
 
             <div className='grid gap-4'>
-                <div>
-                    <label>Please choose a request type below</label>
+                <div className='grid gap-3 mb-2'>
+                    <label className='font-medium'>Please choose a request type below</label>
                     <Select
                         options={options}
                         styles={customStyles}
@@ -250,7 +250,7 @@ const Form = (props) => {
                 </div>
                 <div className='grid'>
                     <label>Subject</label>
-                    <input className='border ' />
+                    <input className='border py-1' />
                 </div>
                 <div className='grid'>
                     <label>How can we help you?</label>
@@ -262,7 +262,7 @@ const Form = (props) => {
                 </div>
                 <div className='grid'>
                     <label>Order ID/Transaction ID</label>
-                    <input className='border ' />
+                    <input className='border py-1' />
                 </div>
                 {/* <div className='grid'>
                     <label>
@@ -279,7 +279,7 @@ const Form = (props) => {
                 <div className='grid'>
                     <label>Attachments</label>
                     <input
-                        className='border customFile'
+                        className='border py-1customFile'
                         type='file'
                         placeholder='Add file or drop files here'
                     />
