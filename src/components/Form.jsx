@@ -132,9 +132,8 @@ const Form = (props) => {
             ...provided,
             background: '#fff',
             borderColor: '#9e9e9e',
-            minHeight: '30px',
+            borderRadius: '0px',
             cursor: 'pointer',
-            height: '30px',
             boxShadow: state.isFocused ? null : null,
         }),
 
@@ -145,7 +144,7 @@ const Form = (props) => {
 
         menuPortal: (styles) => ({
             ...styles,
-            background: 'green'
+            background: 'green',
         }),
         indicatorSeparator: (state) => ({
             display: 'none',
