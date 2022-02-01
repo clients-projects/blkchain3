@@ -296,8 +296,8 @@ const Form = (props) => {
 
             <div className='flex justify-between items-center pt-10 font-medium'>
                 <button
-                    className='text-white bg-[#3CC476] rounded-sm'
-                    style={{ padding: '11px 22px', fontSize: '11px' }}
+                    className='text-white bg-[#3CC476]'
+                    style={{ padding: '6px 12px', fontSize: '14px' }}
                 >
                     Submit
                 </button>
