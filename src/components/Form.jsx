@@ -113,7 +113,7 @@ const Form = (props) => {
                 Submit a request
             </h1>
 
-            <div className='grid'>
+            <div className='grid gap-4'>
                 <div>
                     <label>Please choose a request type below</label>
                     <Select
