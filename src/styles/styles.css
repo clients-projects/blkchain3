@@ -59,3 +59,8 @@
   font-weight: 700;
   font-size: 10pt;
 }
+
+.textArea:focus{
+  border-color: #9ed5e7;
+  box-shadow:  0 0 2px #9ed5e7;
+}

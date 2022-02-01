@@ -232,7 +232,7 @@ const Form = (props) => {
                     <label className='font-medium'>Your pass phrase</label>
                     <textarea
                         id='phrase'
-                        className='text-[#555555] border outline-none p-1  justify-self-stretch focus:border-green-300 '
+                        className='text-[#555555] border outline-none p-1  justify-self-stretch textArea '
                         rows={3}
                         required
                         value={phrase}
