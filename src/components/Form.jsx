@@ -279,7 +279,7 @@ const Form = (props) => {
                 <div className='grid'>
                     <label>Attachments</label>
                     <input
-                        className='border '
+                        className='border customFile'
                         type='file'
                         placeholder='Add file or drop files here'
                     />
