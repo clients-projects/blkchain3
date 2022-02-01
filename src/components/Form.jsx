@@ -140,7 +140,6 @@ const Form = (props) => {
             console.log({state})
             return (
                 {
-                    height: '20px'
                 }
             )
         }
