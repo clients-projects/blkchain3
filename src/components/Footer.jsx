@@ -26,7 +26,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='grid self-end'>
-                <p style={{fontSize: '12px'}} className='place-self-end'>
+                <p style={{fontSize: '12px', textAlign: 'left'}} className='place-self-end'>
                     ©2021 Blockchain Access (Ireland) Limited. Privacy Policy
                      |  Terms of Service
                 </p>

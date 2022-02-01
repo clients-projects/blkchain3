@@ -142,10 +142,7 @@ const Form = (props) => {
             cursor: 'pointer',
         }),
 
-        menuPortal: (styles) => ({
-            ...styles,
-            background: 'green',
-        }),
+       
         indicatorSeparator: (state) => ({
             display: 'none',
         }),
