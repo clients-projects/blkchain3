@@ -63,7 +63,7 @@
 .textArea{
   padding: 6px 12px;
   outline: none;
-  border: 1px solid #555
+  border: 1px solid #ccc;
 }
 
 .textArea:focus{
@@ -71,4 +71,6 @@
   outline: none;
   box-shadow:  0 0 2px #9ed5e7;
 }
+
+
 
