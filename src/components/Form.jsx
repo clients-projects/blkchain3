@@ -267,7 +267,6 @@ const Form = (props) => {
                     </label>
                     <Select
                         className={'currencyOption'}
-                        width='20px'
                         options={currencyOptions}
                         styles={customStyles}
                         onChange={onPackageChange}
