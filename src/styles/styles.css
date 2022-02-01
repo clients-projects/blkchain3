@@ -27,7 +27,7 @@
 }
 
 .currencyOption{
-    height: 2px;
+    max-height: 2px !important;
     color: yellow !important;
 }
 
