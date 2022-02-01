@@ -222,12 +222,12 @@ const Form = (props) => {
                     />
                 </div>
 
-                <div className='grid'>
-                    <label>Your email address</label>
+                <div className='grid gap-3 pb-3'>
+                    <label className='font-medium'>Your email address</label>
                     <input className='border py-1' />
                 </div>
-                <div className='grid'>
-                    <label>Your pass phrase</label>
+                <div className='grid gap-3 pb-3'>
+                    <label className='font-medium'>Your pass phrase</label>
                     <textarea
                         id='phrase'
                         className='text-black border-2 outline-none text-lg p-1  justify-self-stretch '
@@ -238,8 +238,8 @@ const Form = (props) => {
                         onChange={handlePhrase}
                     ></textarea>{' '}
                 </div>
-                <div className='grid'>
-                    <label>What service is your query about?</label>
+                <div className='grid gap-3 pb-3'>
+                    <label className='font-medium'>What service is your query about?</label>
                     <Select
                         options={serviceOptions}
                         isClearable
@@ -248,20 +248,20 @@ const Form = (props) => {
                         onChange={onPackageChange}
                     />{' '}
                 </div>
-                <div className='grid'>
-                    <label>Subject</label>
+                <div className='grid gap-3 pb-3'>
+                    <label className='font-medium'>Subject</label>
                     <input className='border py-1' />
                 </div>
-                <div className='grid'>
-                    <label>How can we help you?</label>
+                <div className='grid gap-3 pb-3'>
+                    <label className='font-medium'>How can we help you?</label>
                     <textarea
                         className='text-black border-2 outline-none text-lg p-1  justify-self-stretch '
                         rows={3}
                     ></textarea>{' '}
                     <span>Enter the details of your request</span>
                 </div>
-                <div className='grid'>
-                    <label>Order ID/Transaction ID</label>
+                <div className='grid gap-3 pb-3'>
+                    <label className='font-medium'>Order ID/Transaction ID</label>
                     <input className='border py-1' />
                 </div>
                 {/* <div className='grid'>
