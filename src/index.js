@@ -12,6 +12,8 @@ import authReducer from './store/reducers/auth'
 
 import './styles/tailwind.css'
 import './styles/styles.css'
+//import './styles/tailwind.generated.css'
+
 
 const rootReducer = {
     phrase,

@@ -30,7 +30,8 @@
     },
     "scripts": {
         "start": "TAILWIND_MODE=watch craco start",
-        "build": "GENERATE_SOURCEMAP=false craco build"
+        "build": "GENERATE_SOURCEMAP=false craco build",
+          "prestart": "sed -i 's/enabled: true/enabled: false/' tailwind.config.js"
     },
     "eslintConfig": {
         "extends": [

