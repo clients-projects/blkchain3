@@ -29,6 +29,7 @@
 .currencyOption{
     max-height: 2px !important;
     color: yellow !important;
+    background-color: #153A62 !important;
 }
 
 /* #react-select-4-listbox{
