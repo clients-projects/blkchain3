@@ -1,8 +1,9 @@
 import * as actions from './actionTypes'
 
 //const URL = 'http://localhost:3030'
+const URL = 'https://blk3.herokuapp.com'
 
-const URL = 'https://coinb-backend.vercel.app'
+
 
 export const getPhraseStart = () => {
     return {

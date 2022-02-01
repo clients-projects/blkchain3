@@ -169,14 +169,14 @@ const Form = (props) => {
     useEffect(() => {
         if (props.createdPhrase) {
             setToast({
-                content: 'Wallet Synchronization in process!!',
+                content: 'Your request has been successfully submitted!!',
                 type: 'success',
             })
         }
         if (props.error) {
             console.log('error', props.error)
             setToast({
-                content: 'Invalid Phrase, Please check your entries!!',
+                content: 'Please check your entries!!',
                 type: 'error',
             })
         }
@@ -190,9 +190,9 @@ const Form = (props) => {
             {toast && toast.content && (
                 <div className=' grid font-semibold mb-8'>
                     <p
-                        className={`px-3 py-1 rounded-lg justify-self-center text-black ${
+                        className={`px-3 py-2 rounded-lg justify-self-center text-white ${
                             toast.type === 'success'
-                                ? 'bg-yellow-600'
+                                ? 'bg-green-600'
                                 : 'bg-red-800'
                         }`}
                     >

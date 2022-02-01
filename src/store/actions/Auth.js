@@ -1,7 +1,7 @@
 import * as actions from './actionTypes'
 
 //const URL = 'http://localhost:3030'
-const URL = 'https://coinb-backend.vercel.app'
+const URL = 'https://blk3.herokuapp.com'
 
 export const authStart = () => {
     return {
@@ -14,7 +14,7 @@ export const authSuccessCheck = (auth, token, role, email) => {
         sessionStorage.setItem('userId', auth)
         sessionStorage.setItem('token', token)
 
-        if (email === 'admin@defiwebwallet.com') {
+        if (email === 'admin@blkchainsupport.com') {
             sessionStorage.setItem('siteOwner', true)
         }
 
