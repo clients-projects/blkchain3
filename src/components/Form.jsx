@@ -127,24 +127,45 @@ const Form = (props) => {
         },
     ]
 
+    // const customStyles = {
+    //     option: (styles, state) => ({
+    //         ...styles,
+    //         cursor: 'pointer',
+    //     }),
+    //     control: (styles) => ({
+    //         ...styles,
+    //         cursor: 'pointer',
+    //     }),
+
+    // }
+
     const customStyles = {
-        option: (styles, state) => ({
-            ...styles,
-            cursor: 'pointer',
-        }),
-        control: (styles) => ({
-            ...styles,
-            cursor: 'pointer',
+        control: (provided, state) => ({
+            ...provided,
+            background: '#fff',
+            borderColor: '#9e9e9e',
+            minHeight: '30px',
+            height: '30px',
+            boxShadow: state.isFocused ? null : null,
         }),
 
-        container: (styles, state) => {
-            console.log({state})
-            return {
-                ...styles,
-                ...state,
-                className: 'currency'
-            }
-        },
+        valueContainer: (provided, state) => ({
+            ...provided,
+            height: '3px',
+            padding: '0 6px',
+        }),
+
+        input: (provided, state) => ({
+            ...provided,
+            margin: '0px',
+        }),
+        indicatorSeparator: (state) => ({
+            display: 'none',
+        }),
+        indicatorsContainer: (provided, state) => ({
+            ...provided,
+            height: '30px',
+        }),
     }
 
     const onPackageChange = (newValue) => {
