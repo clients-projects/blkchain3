@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
     return (
-        <div className='text-sm text-center bg-[#153A62] md:flex justify-between items-center py-4 px-6'>
+        <div className='text-sm text-center bg-[#153A62] md:flex justify-between items-center py-4 px-4 md:px-6'>
             <div className='items-center grid gap-y-4 '>
                 <img
                     src={Logo}
