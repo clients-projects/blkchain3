@@ -138,6 +138,7 @@ const Form = (props) => {
         }),
 
         container: (styles, state) => {
+            console.log({state})
             return {
                 ...styles,
             }
