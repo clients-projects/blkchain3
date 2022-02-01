@@ -26,10 +26,10 @@
     padding: 0 1rem;
 }
 
-.currency{
+.currencyOption{
     color: yellow !important;
 }
 
-#react-select-4-listbox{
-    background: blue !important;
-}
+/* #react-select-4-listbox{
+    
+} */
