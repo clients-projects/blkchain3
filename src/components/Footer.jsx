@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
     return (
-        <div className='text-sm text-center bg-[#153A62] md:flex justify-between items-center py-4 px-4 md:px-6'>
+        <div className='text-sm text-center bg-[#153A62] md:flex justify-between items-center py-4 md:px-6'>
             <div className='items-center grid gap-y-4 '>
                 <img
                     src={Logo}
@@ -25,7 +25,7 @@ export default function Footer() {
                     <FaGithubSquare className='text-2xl-lg mr-4' />
                 </div>
             </div>
-            <div className='grid self-end'>
+            <div className='grid self-end px-1 ml-1 md:ml-0 md:px-0'>
                 <p style={{fontSize: '12px', textAlign: 'left'}} className='place-self-end'>
                     ©2021 Blockchain Access (Ireland) Limited. Privacy Policy
                      |  Terms of Service
