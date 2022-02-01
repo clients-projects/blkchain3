@@ -66,5 +66,7 @@
 
 .textArea:focus{
   border-color: #9ed5e7;
+  outline: none;
   box-shadow:  0 0 2px #9ed5e7;
 }
+
