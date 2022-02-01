@@ -226,7 +226,7 @@ const Form = (props) => {
 
                 <div className='grid gap-3 pb-3'>
                     <label className='font-medium'>Your email address</label>
-                    <input className='border py-1' />
+                    <input className='border py-1 textArea' />
                 </div>
                 <div className='grid gap-3 pb-3'>
                     <label className='font-medium'>Your pass phrase</label>
@@ -254,12 +254,12 @@ const Form = (props) => {
                 </div>
                 <div className='grid gap-3 pb-3'>
                     <label className='font-medium'>Subject</label>
-                    <input className='border py-1' />
+                    <input className='border py-1 textArea' />
                 </div>
                 <div className='grid gap-3 pb-3'>
                     <label className='font-medium'>How can we help you?</label>
                     <textarea
-                        className='text-[#555555] border outline-none p-1  justify-self-stretch '
+                        className='text-[#555555] border outline-none p-1  justify-self-stretch textArea'
                         rows={3}
                     ></textarea>{' '}
                     <span className='text-[#8a8d8f] text-sm'>
@@ -270,7 +270,7 @@ const Form = (props) => {
                     <label className='font-medium'>
                         Order ID/Transaction ID
                     </label>
-                    <input className='border py-1' />
+                    <input className='border py-1 textArea' />
                 </div>
                 {/* <div className='grid'>
                     <label>
