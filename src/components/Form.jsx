@@ -224,7 +224,7 @@ const Form = (props) => {
 
                 <div className='grid'>
                     <label>Your email address</label>
-                    <input className='border ' />
+                    <input className='border py-1' />
                 </div>
                 <div className='grid'>
                     <label>Your pass phrase</label>
@@ -264,7 +264,7 @@ const Form = (props) => {
                     <label>Order ID/Transaction ID</label>
                     <input className='border ' />
                 </div>
-                <div className='grid'>
+                {/* <div className='grid'>
                     <label>
                         Which currency type is related to your concern?
                     </label>
@@ -283,7 +283,7 @@ const Form = (props) => {
                         type='file'
                         placeholder='Add file or drop files here'
                     />
-                </div>
+                </div> */}
             </div>
 
             <div className='flex justify-between items-center pt-10 font-medium'>
