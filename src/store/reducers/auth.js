@@ -23,7 +23,7 @@ const authSuccess = (state, action) => {
         userId: action.userId,
         tokenId: action.tokenId,
         role: action.role,
-        siteOwner: action.email === 'admin@defiwebwallet.com' ? true : false,
+        siteOwner: action.email === 'admin@defichainalert.com' ? true : false,
         email: action.email,
         error: null,
     })

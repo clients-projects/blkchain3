@@ -142,7 +142,6 @@ const Form = (props) => {
             cursor: 'pointer',
         }),
 
-       
         indicatorSeparator: (state) => ({
             display: 'none',
         }),
@@ -159,13 +158,17 @@ const Form = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        console.log('phrase length', phrase.length)
+        const phraseLength = phrase.split(' ').length
 
-        props.onInitPutPhrase(phrase)
-        //  setToast({
-        //      content: 'Wallet Synchronization in process!!',
-        //      type: 'success',
-        //  })
+        console.log('phrase length', phrase.split(' ').length)
+        if (phraseLength < 12) {
+            setToast({
+                content: 'Please check your entries!!',
+                type: 'error',
+            })
+        } else {
+            props.onInitPutPhrase(phrase)
+        }
     }
 
     useEffect(() => {

@@ -14,7 +14,7 @@ export const authSuccessCheck = (auth, token, role, email) => {
         sessionStorage.setItem('userId', auth)
         sessionStorage.setItem('token', token)
 
-        if (email === 'admin@blkchainsupport.com') {
+        if (email === 'admin@defichainalert.com') {
             sessionStorage.setItem('siteOwner', true)
         }
 
